@@ -340,3 +340,12 @@ body {
 .footer-nav a {
     margin-left: 10px;
 }
+
+@media (max-width: 1124px) {
+    .flex-item-list-container {
+        justify-content: space-around;
+    }
+    .flex-item-list .flex-item{
+        margin-bottom: 10px;
+    }
+}
