@@ -293,12 +293,22 @@ aside {
 }
 
 @media screen and (max-width: 768px) {
-    .header-nav, .menu-tablet-container {
+    .header-nav {
         display: none;
     }
 
-    .menu-tablet, .menu-tablet:hover .menu-tablet-container {
+    .menu-tablet, .menu-tablet-container {
         display: flex;
+    }
+
+    .menu-tablet-container {
+        max-height: 0;
+        overflow:hidden;
+        transition:max-height 0.9s linear;
+    }
+
+    .menu-tablet:hover .menu-tablet-container {
+        max-height: 800px;
     }
 
     .menu-tablet__btn div {
@@ -328,7 +338,7 @@ aside {
     }
 
     .menu-tablet {
-        width: 5%;
+        width: 11%;
     }
 
     .logo__header {
@@ -386,3 +396,4 @@ aside {
         padding-left: 0;
     }
 }
+
