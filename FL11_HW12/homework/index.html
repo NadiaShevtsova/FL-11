@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Homework 12 - Simple TODO List</title>
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+  <div id="root">
+    <div id="main" class="main-div anonymous">
+      <header>
+        <h1 class="header-todo">Simple TODO application</h1>
+      </header>
+      <div class="main-content-todo">
+        <a href="#add"><div class="add-new-task-btn">Add new task</div></a>
+        <p class="todo-is-empty">TODO is empty</p>
+        <div class="list"></div>
+      </div>
+    </div>
+
+    <div id="add" class="anonymous">
+      <header>
+        <h1 class="header-add-task">Add task</h1>
+      </header>
+      <div>
+        <div class="main-content-add-task">
+          <div class="input-add-task">
+            <input type="text" class="add-task">
+          </div>
+          <div class="btn-block">
+            <a href="#main"><div class="btn-style">Cancel</div></a>
+            <a href="#main"><div class="btn btn-style">Save changes</div></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="modify" class="anonymous">
+      <header>
+        <h1 class="header-add-task">Modify item</h1>
+      </header>
+      <div>
+        <div class="main-content-add-task">
+          <div class="input-add-task">
+            <input type="text" class="modify-task">
+          </div>
+          <div class="btn-block">
+            <a href="#main"><div class="btn-style">Cancel</div></a>
+            <a href="#main"><div class="btn-modify btn-style">Save changes</div></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="./src/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+#root {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.list {
+    display: none;
+    margin-top: 20px;
+}
+button, input{
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+.btn-check-el, .btn-delete-el {
+    padding: 0;
+}
+.btn-block {
+    display: flex;
+    justify-content: center;
+}
+.btn-block a {
+    margin: 20px;
+}
+.add-task {
+    width: 217px;
+}
+.header-todo, .header-add-task, .main-content-todo, .main-content-add-task {
+    text-align: center;
+}
+.btn-check-el, .btn-delete-el {
+    background: none;
+    border: none;
+}
+.common-div {
+    display: flex;
+}
+.add-link {
+    display: flex;
+    text-decoration: none;
+    width: 250px;
+}
+.div-text-el {
+    width: 100%;
+    align-self: center;
+}
+.btn-style, .add-new-task-btn {
+    background: #dddddd;
+    border: 1px outset #dddddd;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+.add-new-task-btn {
+    width: 100px;
+}
+.main-content-todo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
